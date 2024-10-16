@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: solid; */
+    font-family:Montserrat ;
+} 
+@font-face {
+    font-family: Montserrat;
+    src: url(../Montserrat-VariableFont_wght.ttf);
+}
+#ad1{
+    height: 100vh;
+}
+#nav1{
+    width: 100%;
+    position: fixed;
+    background-color: white; 
+    padding:0px 9px;
+    height: 75px;
+    z-index:1;
+    box-shadow: rgba(218, 218, 221, 0.25) 0px 6px 12px -2px, rgba(162, 141, 141, 0.3) 0px 3px 7px -3px;
+}
+#ul1{
+    display: inline;
+    left:500px;
+    top: 25px;
+    position: absolute;
+}
+#ul1 li{
+    display:inline;
+    list-style: none;
+    margin-right: 20px;
+}
+img{
+    width: 80px;
+    height: 60px;
+    margin-left: 60px;
+
+}
+.d1a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight:600;
+    color: black;
+}
+.d1a:hover{
+    color: #fd5825;
+}
+#a1{
+    color:#fd5825;
+}
+#b1,#b2{
+    background-color: #fd5825;
+    color: white;
+    padding: 6px 12px;
+    border-style: none;
+    border-radius: 0.25rem;
+   
+}
+img[alt=adiv]{
+    width: 529px;
+    height: 529px;
+    position: absolute;
+    top: 100px;
+    right: 70px;
+}
+#d2{
+    /* border:solid 2px #fd5825; */
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    height: 400px;
+}
+h1{
+    padding-right:690px;
+}
+#d2p{
+    position: absolute;
+    top: 180px;
+    padding-right:620px;
+    font-size:22px;
+    
+}
+#b2{
+    position: absolute;
+    bottom: 40px;
+    padding: 10px;
+    font-size: 22px;
+}
+#d3{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 50px 70px;
+    
+}
+.d33{
+    width: 340px;
+    height: 340px;
+    color: white;
+    border-radius: 8px;
+    padding: 30px;
+    transform:1s;
+    margin-right: 30px;
+}
+.d33:hover{
+    transform:scale(1.1,1.1);
+}
+#d31{
+     background-color: #fd5825;
+     
+}
+#d32{
+     background-color: #f3a71d;
+} 
+#d33{
+    background-color: #999a1c;
+   
+}
+#d31h4,#d32h4,#d33h4{
+    font-size: 24px;
+}
+#d31p1,#d32p2,#d33p3{
+    font-size: 16px;
+    padding: 10px 40px 0px 0px;
+}
+#d31b1,#d32b2,#d33b3{
+    display: block;
+    padding: 6px 16px;
+    border-style: none;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-top: 30px;
+    
+}
+
+
+#d4{
+    margin-top: 35px;
+}
+#d4 img{
+    width: 310px;
+    height: 240px;
+}
+#d5{
+    margin-top: 70px;
+    width: 100%;
+    height: 185px;
+    background-color: #fd5825;
+    padding: 25px;
+    text-align: center; 
+    display: flex;
+    align-items: center;
+}
+#ul2 li{
+    display: inline-block;
+    font-size: 30px;
+    color: white;
+    margin-right: 70px;
+}
+.d5d{
+    font-size:40px ;
+    font-weight: bold;
+}
+#ul2li1{
+    margin-left: 60px;
+}
+#d6{
+    height: 80px;
+    width: 100%;
+    color: #6c757d;
+    border-bottom:solid 1px;
+    display:flex;
+    flex-direction: row;
+    /* justify-content:space-evenly; */
+    align-items: center;
+}
+#d6s1{
+    font-size: 20px;
+    margin-left: 60px;
+}
+#d6s2{
+    
+    width: 130px;
+    margin-left: 600px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+#d7{
+    height: 80vh;
+    color: #6c757d;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content:space-between; */
+}
+.d7b{
+    font-size: 16px;
+    font-weight: 50rem;
+    display:block;
+    margin-bottom: 8px;
+}
+.d7p{
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+#d7d1{
+    width: 285px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 144px;
+}
+#d7d2{
+    width: 285px;
+    height:100% ;
+    margin-left: 115px;
+
+}
+.d7d2a{
+    font-size: 17px;
+    display: block;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+#d7d3{
+    width: 285px;
+    height: 100%;
+    margin-left: 78px;
+}
+#d8{
+    height: 70px;
+    background-color: #ebeced;
+    align-content: center;
+
+}
+#d8p{
+    color: #6c757d;
+    font-size: 18px;
+    padding: 0px 463px;
+}
+#d8b{
+     text-decoration: underline;
+     font-weight: bolder;
+}
+
+
+
